@@ -1,0 +1,67 @@
+# Build directories
+build/
+build-*/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.user
+*.creator
+*.creator.user
+*.creator.user.*
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.so
+*.dll
+*.dylib
+*.a
+
+# Debug / Release folders
+debug/
+release/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Qt specific
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# QML cache
+*.qmlc
+*.jsc
+
+# Coverage / profiling
+*.gcda
+*.gcno
+*.gcov
