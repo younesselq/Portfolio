@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "company": "Geser Best (Navblue / Eff Innov Technology)",
+    "client": "Airbus – Navblue",
+    "role": "C++ / Qt Developer",
+    "location": "Toulouse, France",
+    "startDate": "2025-03",
+    "endDate": null,
+    "current": true,
+    "domain": "Aéronautique",
+    "description": "Développement d'une application iOS pour une filiale Airbus (Navblue) en C++/QML. Conception et implémentation de tests automatisés pour garantir la fiabilité et la validation continue. Environnement Agile SAFe au sein d'une équipe multinationale (France, Pologne, Inde).",
+    "tasks": [
+      "Développement d'une application iOS pour Navblue (filiale Airbus) en C++/QML",
+      "Conception et implémentation de tests automatisés (fiabilité et validation continue)",
+      "Travail en environnement Agile SAFe dans une équipe multinationale (France, Pologne, Inde)"
+    ],
+    "technologies": ["C++", "QML", "Qt", "iOS", "Agile SAFe", "Tests automatisés"]
+  },
+  {
+    "id": 2,
+    "company": "Randstad Digital",
+    "client": null,
+    "role": "C++ Developer",
+    "location": "Toulouse, France",
+    "startDate": "2024-03",
+    "endDate": "2025-01",
+    "current": false,
+    "domain": "Aéronautique / Gestion de vol",
+    "description": "Développement d'une application de gestion de vol en C++. Implémentation du multithreading pour améliorer les performances et le traitement concurrent des données de vol. Utilisation de fichiers JSON, YAML et CSV pour la gestion des données. Rédaction et exécution de tests unitaires avec Python et GTest.",
+    "tasks": [
+      "Développement d'une application de gestion de vol en C++",
+      "Implémentation du multithreading pour le traitement concurrent des données de vol",
+      "Utilisation de JSON, YAML et CSV pour la gestion des données",
+      "Rédaction et exécution de tests unitaires avec Python et GTest (mocks)"
+    ],
+    "technologies": ["C++", "Multithreading", "JSON", "YAML", "CSV", "Python", "GTest", "Mocks"]
+  },
+  {
+    "id": 3,
+    "company": "Randstad Digital – Valeo",
+    "client": "Valeo",
+    "role": "ADAS Systems Engineer",
+    "location": "Toulouse, France",
+    "startDate": "2023-10",
+    "endDate": "2024-03",
+    "current": false,
+    "domain": "Automobile / ADAS",
+    "description": "Analyse et comparaison des exigences entre véhicules cibles et véhicules de référence. Analyse architecturale des véhicules cibles. Développement de scripts Python pour comparer des fichiers Excel. Création et maintenance de documentation technique.",
+    "tasks": [
+      "Analyse et comparaison d'exigences entre véhicules cibles et de référence",
+      "Analyse architecturale des véhicules cibles",
+      "Développement de scripts Python pour comparer des fichiers Excel",
+      "Création et maintenance de documentation technique"
+    ],
+    "technologies": ["Python", "ADAS", "DOORS", "UML", "Excel", "Documentation technique"]
+  },
+  {
+    "id": 4,
+    "company": "Randstad Digital – Hilum",
+    "client": "Hilum",
+    "role": "C++ / Qt Developer",
+    "location": "Toulouse, France",
+    "startDate": "2023-02",
+    "endDate": "2023-09",
+    "current": false,
+    "domain": "Développement logiciel",
+    "description": "Développement frontend avec Qt/QML et backend en C++. Développement de la communication entre l'UI et le backend. Création de requêtes HTTPS pour une communication bidirectionnelle entre l'interface et la base de données PostgreSQL. Développement de scripts de test avec Robot Framework et Python.",
+    "tasks": [
+      "Développement frontend Qt/QML et backend C++",
+      "Communication bidirectionnelle UI ↔ backend",
+      "Requêtes HTTPS vers base de données PostgreSQL",
+      "Scripts de test avec Robot Framework et Python"
+    ],
+    "technologies": ["C++", "Qt", "QML", "HTTPS", "PostgreSQL", "Robot Framework", "Python"]
+  },
+  {
+    "id": 5,
+    "company": "ALTEN – Renault",
+    "client": "Renault",
+    "role": "C++ / Qt Developer",
+    "location": "Maroc",
+    "startDate": "2020-02",
+    "endDate": "2020-08",
+    "current": false,
+    "domain": "Automobile",
+    "description": "Développement d'une interface utilisateur (UI) en C++ et QML. Création de requêtes HTTPS pour communication bidirectionnelle avec une base de données MySQL. Implémentation d'un système de détection de fatigue basé sur le calcul EAR (Eye Aspect Ratio) avec Python, OpenCV et Dlib.",
+    "tasks": [
+      "Développement d'une UI en C++ et QML",
+      "Requêtes HTTPS vers base de données MySQL",
+      "Système de détection de fatigue (EAR) avec Python, OpenCV et Dlib"
+    ],
+    "technologies": ["C++", "QML", "Qt", "HTTPS", "MySQL", "Python", "OpenCV", "Dlib"]
+  }
+]

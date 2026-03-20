@@ -1,0 +1,14 @@
+{
+  "firstName": "Youness",
+  "lastName": "ELQADERY",
+  "title": "Embedded Software Engineer | C++ / Qt Developer",
+  "email": "Younesselqadery19qy@gmail.com",
+  "phone": "+33753495757",
+  "location": "Toulouse, France",
+  "driverLicense": "Catégorie B",
+  "summary": "Ingénieur logiciel embarqué spécialisé C++/Qt avec plus de 4 ans d'expérience dans le développement d'applications industrielles et aéronautiques. Expérience en environnement Agile SAFe, dans des équipes multinationales, sur des projets critiques (Airbus/Navblue, Valeo, Renault).",
+  "languages": [
+    { "name": "Français", "level": "Courant" },
+    { "name": "Anglais", "level": "Avancé" }
+  ]
+}
