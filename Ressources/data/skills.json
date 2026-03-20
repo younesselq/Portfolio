@@ -1,0 +1,87 @@
+{
+  "hardSkills": [
+    {
+      "category": "Développement logiciel",
+      "items": [
+        { "name": "C++",            "level": 95, "yearsExp": 5 },
+        { "name": "Qt / QML",       "level": 92, "yearsExp": 5 },
+        { "name": "Embedded C",     "level": 80, "yearsExp": 4 },
+        { "name": "Python",         "level": 78, "yearsExp": 4 },
+        { "name": "Java",           "level": 55, "yearsExp": 2 }
+      ]
+    },
+    {
+      "category": "Systèmes embarqués",
+      "items": [
+        { "name": "Embedded Linux", "level": 75, "yearsExp": 3 },
+        { "name": "RTOS",           "level": 70, "yearsExp": 3 },
+        { "name": "STM32",          "level": 72, "yearsExp": 3 },
+        { "name": "Raspberry Pi 4", "level": 70, "yearsExp": 3 },
+        { "name": "PIC",            "level": 60, "yearsExp": 2 }
+      ]
+    },
+    {
+      "category": "Protocoles de communication",
+      "items": [
+        { "name": "UART",       "level": 85, "yearsExp": 4 },
+        { "name": "SPI",        "level": 80, "yearsExp": 4 },
+        { "name": "CAN",        "level": 80, "yearsExp": 4 },
+        { "name": "I2C",        "level": 80, "yearsExp": 4 },
+        { "name": "FlexRay",    "level": 65, "yearsExp": 2 },
+        { "name": "ARINC 429",  "level": 65, "yearsExp": 2 },
+        { "name": "Ethernet",   "level": 70, "yearsExp": 3 }
+      ]
+    },
+    {
+      "category": "Tests & Automatisation",
+      "items": [
+        { "name": "GTest",           "level": 82, "yearsExp": 3 },
+        { "name": "Robot Framework", "level": 75, "yearsExp": 2 },
+        { "name": "Python (tests)",  "level": 78, "yearsExp": 3 },
+        { "name": "Selenium",        "level": 60, "yearsExp": 1 },
+        { "name": "TestComplete",    "level": 55, "yearsExp": 1 }
+      ]
+    },
+    {
+      "category": "Bases de données",
+      "items": [
+        { "name": "PostgreSQL", "level": 70, "yearsExp": 2 },
+        { "name": "MySQL",      "level": 68, "yearsExp": 2 }
+      ]
+    },
+    {
+      "category": "Outils & Gestion de projet",
+      "items": [
+        { "name": "Git / GitLab", "level": 88, "yearsExp": 5 },
+        { "name": "JIRA",         "level": 80, "yearsExp": 4 },
+        { "name": "DOORS",        "level": 65, "yearsExp": 2 },
+        { "name": "UML",          "level": 72, "yearsExp": 3 }
+      ]
+    },
+    {
+      "category": "Librairies & Frameworks",
+      "items": [
+        { "name": "OpenCV",  "level": 72, "yearsExp": 2 },
+        { "name": "Dlib",    "level": 65, "yearsExp": 1 }
+      ]
+    },
+    {
+      "category": "Normes & Standards",
+      "items": [
+        { "name": "DO-178C",  "level": 70, "yearsExp": 2 },
+        { "name": "AUTOSAR",  "level": 65, "yearsExp": 2 },
+        { "name": "SPICE",    "level": 60, "yearsExp": 1 }
+      ]
+    }
+  ],
+  "softSkills": [
+    { "name": "Travail en équipe multinationale", "icon": "team" },
+    { "name": "Adaptabilité",                     "icon": "adapt" },
+    { "name": "Rigueur technique",                "icon": "precision" },
+    { "name": "Agilité (SAFe / Scrum)",           "icon": "agile" },
+    { "name": "Communication",                    "icon": "communication" },
+    { "name": "Résolution de problèmes",          "icon": "problem" },
+    { "name": "Autonomie",                        "icon": "autonomy" },
+    { "name": "Documentation technique",          "icon": "docs" }
+  ]
+}

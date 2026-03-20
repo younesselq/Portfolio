@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "institution": "Université Paris-Saclay",
+    "degree": "Master – Ingénierie des Systèmes Complexes",
+    "field": "Option Aéronautique",
+    "location": "France",
+    "startYear": 2022,
+    "endYear": 2023,
+    "description": "Formation avancée en ingénierie des systèmes complexes avec spécialisation en aéronautique. Modélisation système, architectures embarquées, normes aéronautiques (DO-178C)."
+  },
+  {
+    "id": 2,
+    "institution": "FST – Béni Mellal",
+    "degree": "Diplôme d'Ingénieur en Mécatronique",
+    "field": "Mécatronique",
+    "location": "Béni Mellal, Maroc",
+    "startYear": 2017,
+    "endYear": 2020,
+    "description": "Formation en ingénierie mécatronique : systèmes embarqués, automatique, électronique, développement logiciel bas niveau (C embarqué, STM32)."
+  },
+  {
+    "id": 3,
+    "institution": "Faculté des Sciences – El Jadida",
+    "degree": "Licence en Électronique",
+    "field": "Électronique",
+    "location": "El Jadida, Maroc",
+    "startYear": 2014,
+    "endYear": 2017,
+    "description": "Fondamentaux de l'électronique, circuits analogiques et numériques, microcontrôleurs, protocoles de communication."
+  }
+]
