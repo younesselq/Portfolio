@@ -12,6 +12,8 @@ qt_standard_project_setup(REQUIRES 6.5)
 # Exécutable principal
 qt_add_executable(appPortfolio
     Src/main.cpp
+    Src/models/ExperienceModel.hpp
+    Src/models/ExperienceModel.cpp
 )
 
 # Module QML
@@ -24,13 +26,13 @@ qt_add_qml_module(appPortfolio
 
 # Ajouter les ressources JSON
 # Ajouter les fichiers JSON comme ressources Qt
-qt_add_resources(APP_RESOURCES
-    PREFIX /Ressources/data
+qt_add_resources(appPortfolio "resources"
+    PREFIX "/Ressources/data"
     FILES
-        ${CMAKE_CURRENT_SOURCE_DIR}/Ressources/data/education.json
-        ${CMAKE_CURRENT_SOURCE_DIR}/Ressources/data/experiences.json
-        ${CMAKE_CURRENT_SOURCE_DIR}/Ressources/data/profile.json
-        ${CMAKE_CURRENT_SOURCE_DIR}/Ressources/data/skills.json
+        Ressources/data/education.json
+        Ressources/data/experiences.json
+        Ressources/data/profile.json
+        Ressources/data/skills.json
 )
 
 target_sources(appPortfolio PRIVATE ${APP_RESOURCES})
