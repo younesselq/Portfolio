@@ -14,6 +14,12 @@ qt_add_executable(appPortfolio
     Src/main.cpp
     Src/models/ExperienceModel.hpp
     Src/models/ExperienceModel.cpp
+    Src/models/Educationmodel.h
+    Src/models/Educationmodel.cpp
+    Src/models/Profile.h
+    Src/models/Profile.cpp
+    Src/models/SkillModel.hpp
+    Src/models/Skillmodel.cpp
 )
 
 # Module QML
@@ -22,6 +28,7 @@ qt_add_qml_module(appPortfolio
     VERSION 1.0
     QML_FILES
         qml/Main.qml
+
 )
 
 # Ajouter les ressources JSON
