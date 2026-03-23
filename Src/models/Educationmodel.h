@@ -22,24 +22,24 @@ class EducationModel : QAbstractListModel
     Q_OBJECT
 public:
 
-    enum EductaionRoles{
+    enum EducataionRoles{
         IdRole     = Qt::UserRole + 1,
         InstitutionRole,
         DegreeRole,
-        FieledRole,
+        FieldRole,
         LocationRole,
         StartYearRole,
         EndYearRole,
         DescriptionRole
-    }
-    Q_ENUM(EducationRoles)
+    };
+    Q_ENUM(EducataionRoles)
 
-    explicit EducationModel(Qobject *parent=nullptr);
+    explicit EducationModel(QObject *parent=nullptr);
 
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;
     QVariant data(const QModelIndex &index, int role) const override ;
     QHash<int, QByteArray> roleNames() const override;
-    void setEducations(QList<Education> educations) const ;
+    void setEducations(const QList<Education> educations);
 private:
     QList<Education> m_educations;
 };

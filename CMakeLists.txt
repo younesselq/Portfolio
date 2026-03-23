@@ -16,8 +16,8 @@ qt_add_executable(appPortfolio
     Src/models/ExperienceModel.cpp
     Src/models/Educationmodel.h
     Src/models/Educationmodel.cpp
-    Src/models/Profile.h
-    Src/models/Profile.cpp
+    Src/models/ProfileModel.h
+    Src/models/ProfileModel.cpp
     Src/models/SkillModel.hpp
     Src/models/Skillmodel.cpp
 )
