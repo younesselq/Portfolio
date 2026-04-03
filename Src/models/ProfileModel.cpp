@@ -1,21 +1,13 @@
 #include "ProfileModel.h"
 
-ProfileModel::ProfileModel(QObject *parent)
-    : QObject(parent)
-{}
-
-// ─────────────────────────────────────────────
-// setProfile — appelé par le DataLoader après
-// avoir parsé le profile.json
-// ─────────────────────────────────────────────
-void ProfileModel::setProfile(const QString      &firstName,
-                              const QString      &lastName,
-                              const QString      &title,
-                              const QString      &email,
-                              const QString      &phone,
-                              const QString      &location,
-                              const QString      &driverLicense,
-                              const QString      &summary,
+void ProfileModel::setProfile(const QString         &firstName,
+                              const QString         &lastName,
+                              const QString         &title,
+                              const QString         &email,
+                              const QString         &phone,
+                              const QString         &location,
+                              const QString         &driverLicense,
+                              const QString         &summary,
                               const QList<Language> &languages)
 {
     m_firstName     = firstName;
@@ -29,7 +21,7 @@ void ProfileModel::setProfile(const QString      &firstName,
 
     // Conversion QList<Language> → QVariantList
     // pour que QML puisse itérer avec un Repeater
-    // et accéder aux champs via modelData.name / modelData.level
+    // modelData.name / modelData.level
     m_languages.clear();
     for (const Language &lang : languages) {
         QVariantMap map;
@@ -38,6 +30,5 @@ void ProfileModel::setProfile(const QString      &firstName,
         m_languages.append(map);
     }
 
-    // Notifie QML : toutes les propriétés sont à jour
     emit profileChanged();
 }

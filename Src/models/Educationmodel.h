@@ -1,47 +1,59 @@
-#ifndef EDUCATIONMODEL_H
-#define EDUCATIONMODEL_H
+#pragma once
 
-#include <QObject>
 #include <QAbstractListModel>
+#include <QList>
+#include <QtQml/qqml.h>
 
-struct Education
-{
-    int id;
+struct Education {
+    int     id;
     QString institution;
     QString degree;
-    QString field;
+    QString specialization;
     QString location;
-    QString startYear;
-    QString endYear;
-    QString description;
-
+    int     startYear;
+    int     endYear;
+    QString level;
 };
 
-class EducationModel : QAbstractListModel
+class EducationModel : public QAbstractListModel
 {
     Q_OBJECT
-public:
+    QML_ELEMENT
+    QML_SINGLETON
 
-    enum EducataionRoles{
-        IdRole     = Qt::UserRole + 1,
+public:
+    enum EducationRoles {
+        IdRole = Qt::UserRole + 1,
         InstitutionRole,
         DegreeRole,
-        FieldRole,
+        SpecializationRole,
         LocationRole,
         StartYearRole,
         EndYearRole,
-        DescriptionRole
+        LevelRole
     };
-    Q_ENUM(EducataionRoles)
+    Q_ENUM(EducationRoles)
 
-    explicit EducationModel(QObject *parent=nullptr);
+    static EducationModel *create(QQmlEngine *, QJSEngine *)
+    {
+        return instance();
+    }
 
-    int rowCount(const QModelIndex &parent = QModelIndex()) const override;
-    QVariant data(const QModelIndex &index, int role) const override ;
+    static EducationModel *instance()
+    {
+        static EducationModel inst;
+        return &inst;
+    }
+
+    int      rowCount(const QModelIndex &parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
-    void setEducations(const QList<Education> educations);
+
+    void setEducations(const QList<Education> &educations);
+
 private:
+    explicit EducationModel(QObject *parent = nullptr)
+        : QAbstractListModel(parent) {}
+
     QList<Education> m_educations;
 };
-
-#endif // EDUCATIONMODEL_H

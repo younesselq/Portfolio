@@ -1,8 +1,5 @@
-#include "ExperienceModel.hpp"
+#include "ExperienceModel.h"
 
-ExperienceModel::ExperienceModel(QObject *parent)
-    : QAbstractListModel(parent)
-{}
 
 // ─────────────────────────────────────────────
 // rowCount — nombre de lignes dans le modèle
