@@ -1,12 +1,9 @@
-#include "SkillModel.hpp"
+#include "SkillModel.h"
 
 // ══════════════════════════════════════════════
 //  SkillCategoryModel
 // ══════════════════════════════════════════════
 
-SkillCategoryModel::SkillCategoryModel(QObject *parent)
-    : QAbstractListModel(parent)
-{}
 
 int SkillCategoryModel::rowCount(const QModelIndex &parent) const
 {
@@ -69,9 +66,6 @@ QVariantList SkillCategoryModel::itemsToVariant(const QList<SkillItem> &items) c
 //  SoftSkillModel
 // ══════════════════════════════════════════════
 
-SoftSkillModel::SoftSkillModel(QObject *parent)
-    : QAbstractListModel(parent)
-{}
 
 int SoftSkillModel::rowCount(const QModelIndex &parent) const
 {
